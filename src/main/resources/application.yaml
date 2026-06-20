@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: SecutrityProjects
+
+  security:
+    user:
+      name : "riya"
+      password: "1234"
