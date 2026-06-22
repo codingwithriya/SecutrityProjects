@@ -39,6 +39,8 @@ public class HelloController {
         return e;
     }
 
+    
+
     @GetMapping("/csrf")
     public CsrfToken getToken(HttpServletRequest req){
         return (CsrfToken) req.getAttribute("_csrf");
